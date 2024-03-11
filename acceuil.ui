@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>652</width>
+    <height>414</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#frame{
+background-image: url(:/images/Copter internet cyber security background cyber Vector Image.jpg);
+}
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>424</x>
+         <y>194</y>
+         <width>200</width>
+         <height>100</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">*{
+color: rgb(238, 238, 236);
+border:none;
+background:none;
+border-radius: 20px 20px 20px 20px;
+}
+#pushButton_3:hover{
+	background-color: rgb(32, 74, 135);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>SIMULER</string>
+       </property>
+       <property name="icon">
+        <iconset resource="feather/icons.qrc">
+         <normaloff>:/images/play-circle.svg</normaloff>:/images/play-circle.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_2">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>336</y>
+         <width>333</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>800</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">*{
+border: none;
+background: none;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="maximumSize">
+           <size>
+            <width>1000</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">*{
+	background-color: None;
+color: rgb(238, 238, 236);
+}
+</string>
+          </property>
+          <property name="text">
+           <string>tafita.ramananjatovo@gmail.com</string>
+          </property>
+          <property name="icon">
+           <iconset resource="feather/icons.qrc">
+            <normaloff>:/images/mail.svg</normaloff>:/images/mail.svg</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>16</width>
+            <height>16</height>
+           </size>
+          </property>
+          <property name="autoRepeatInterval">
+           <number>111</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>@Tafita Rm JT</string>
+          </property>
+          <property name="icon">
+           <iconset resource="feather/icons.qrc">
+            <normaloff>:/images/facebook.svg</normaloff>:/images/facebook.svg</iconset>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QSplitter" name="splitter">
+       <property name="geometry">
+        <rect>
+         <x>98</x>
+         <y>23</y>
+         <width>438</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <widget class="QLabel" name="label">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>30</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#label{
+color: rgb(255, 255, 255);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>CRYPTOGRAPHIE QUANTIQUE</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>22</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(243, 243, 243);</string>
+        </property>
+        <property name="text">
+         <string>A VARIABLES CONTINUES</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="feather/icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
